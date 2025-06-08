@@ -1,7 +1,5 @@
 # 🌊 API de Monitoramento da Qualidade da Água - IoT 🐠
 
-![NestJS Logo](https://nestjs.com/img/logo_text.svg)
-
 ## 📝 Sobre o Projeto
 
 Esta API foi desenvolvida como parte de um trabalho acadêmico para a disciplina de **Internet das Coisas (Internet of Things)** 🌐 do Mestrado em Engenharia Informática da **Universidade da Beira Interior (UBI)** 🎓, Covilhã, Portugal.
@@ -152,9 +150,5 @@ Após iniciar a aplicação, a documentação interativa da API, gerada pelo Swa
 *   🔔 Implementação de sistema de alertas/notificações com base nos dados dos sensores.
 *   🧪 Adição de testes unitários e de integração para todas as funcionalidades, incluindo as interações com MongoDB.
 *   ☁️ Configuração de pipeline de CI/CD para deploy automatizado (Azure, AWS, etc.).
-
-## 🙏 Agradecimentos
-
-Agradecemos à Universidade da Beira Interior e aos docentes da disciplina de Internet das Coisas pelo conhecimento e desafios propostos.
 
 ---
