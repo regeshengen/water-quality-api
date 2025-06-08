@@ -1,4 +1,3 @@
-// src/sensor-data/schemas/sensor-data.schema.ts
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
