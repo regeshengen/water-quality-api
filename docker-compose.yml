@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres_db:
+    image: postgres:15
+    container_name: water_quality_pg_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USERNAME_DOCKER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD_DOCKER}
+      POSTGRES_DB: ${DB_DATABASE_DOCKER}
+    ports:
+      - "${DB_PORT_DOCKER}:5432"
+    volumes:
+      - pgdata_water_quality:/var/lib/postgresql/data
+
+volumes:
+  pgdata_water_quality:
+    driver: local
