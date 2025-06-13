@@ -69,8 +69,8 @@ A API atualmente implementa as seguintes funcionalidades:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_GIT]
-    cd [NOME_DA_PASTA_DO_PROJETO]
+    git clone https://github.com/regeshengen/water-quality-api
+    cd water-quality-api
     ```
 
 2.  **Configure as Variáveis de Ambiente:**
